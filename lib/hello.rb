@@ -21,9 +21,11 @@ def hello_t(array)
     while i < array.length
       yield(array[i])
       i = i + 1
-  array
-   else puts "Hey! No block was given!"
-  end
-end 
+    end
 
+    array
+  else
+    puts "Hey! No block was given!"
+  end
+end
  
